@@ -1,0 +1,28 @@
+// 1번 과제
+#include <stdio.h>
+
+int main(void) {
+	printf("Hello world! \n");
+	return 0;
+}
+
+// 2번 과제
+#include <stdio.h>
+
+int main(void) {
+  printf("강한친구 대한육군 \n");
+  printf("강한친구 대한육군 \n");
+  
+  return 0;
+}
+
+// 3번 과제
+#include <stdio.h>
+
+int main(void) {
+  printf("이름 : 성현아 \n");
+  printf("학과 : 스마트정보통신공학과 \n");
+  
+  return 0;
+}
+  
