@@ -1,0 +1,27 @@
+// Baekjoon 2557
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello World");
+    return 0;
+}
+
+
+// Baekjoon 10718
+#include <stdio.h>
+
+int main(void) {
+    printf("강한친구 대한육군 \n");
+    printf("강한친구 대한육군");
+    return 0;
+}
+
+
+//CodeCure 2021 지원 서류 문제 4번
+# include <stdio.h>
+
+int main(void) {
+    printf("이름: 노현서\n");
+    printf("학부: 글로벌금융경영학부");
+    return 0;
+}
