@@ -1,0 +1,63 @@
+// 10869번
+#include <stdio.h>
+
+int main(void)
+{
+	int A, B;
+	printf("A를 입력하세요:\n");
+	scanf_s("%d", &A);
+    printf("B를 입력하세요:\n");
+	scanf_s("%d", &B);
+
+	printf("%d\n", A + B);
+	printf("%d\n", A - B);
+	printf("%d\n", A * B);
+	printf("%d\n", A / B);
+	printf("%d\n", A % B);
+
+	return 0;
+}
+
+// 1330번
+#include <stdio.h>
+
+int main(void)
+{
+	int A, B;
+	printf("A를 입력하세요:\n");
+	scanf_s("%d", &A);
+	printf("B를 입력하세요:\n");
+	scanf_s("%d", &B);
+
+	if (A > B) {
+		printf("'>'");
+	}
+	else if (A < B) {
+		printf("'<'");
+	}
+	else {
+		printf("'=='");
+	}
+
+	return 0;
+}
+
+// 2753번
+#include <stdio.h>
+
+int main(void)
+{
+	int year;
+	printf("연도를 입력하세요:\n");
+	scanf_s("%d", &year);
+
+	if ((year % 4 == 0) && (year % 100 != 0) || year % 400 == 0)
+	{
+		printf("1");
+	}
+	else {
+		printf("0");
+	}
+
+	return 0;
+}
