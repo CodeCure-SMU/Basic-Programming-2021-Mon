@@ -3,9 +3,9 @@
 
 int main(void) {
     int A, B;
-    printf("A¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
+    printf("Aë¥¼ ìž…ë ¥í•˜ì‹œì˜¤. ");
     scanf("%d", &A);
-    printf("B¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
+    printf("Bë¥¼ ìž…ë ¥í•˜ì‹œì˜¤. ");
     scanf("%d", &B);
 
     if (A > B) {
