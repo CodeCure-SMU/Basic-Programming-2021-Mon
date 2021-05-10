@@ -3,7 +3,7 @@
 
 int main(void) {
     int Year;
-    printf("�⵵�� �Է��Ͻÿ�. ");
+    printf("³âµµ¸¦ ÀÔ·ÂÇÏ½Ã¿À. ");
     scanf("%d", &Year);
 
 
