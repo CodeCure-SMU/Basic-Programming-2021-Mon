@@ -1,0 +1,65 @@
+11022
+#include <stdio.h>
+
+int main(void) {
+	int t;
+
+	scanf("%d", &t);
+
+	int a, b;
+
+	for (int i = 1; i <= t; i++) {
+		scanf("%d %d", &a, &b);
+		printf("Case #%d: %d + %d = %d\n", i, a, b, a + b);
+	}
+
+	return 0;
+} 
+
+10952
+include <stdio.h>
+
+int main(void) {
+	int a, b;
+
+	while (1) {
+		scanf("%d %d", &a, &b);
+
+		if (a == 0 && b == 0)
+			break;
+
+		printf("%d\n", a + b);
+	}
+	return 0;
+} 
+
+8393
+#include <stdio.h>
+
+int main(void) {
+    int n;
+
+    scanf("%d", &n);
+
+    int sum = 0;
+
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+
+    printf("%d\n", sum);
+
+    return 0;
+} 
+
+2739
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    for (int i = 1; i < 10; ++i) {
+        printf("%d * %d = %d\n", n, i, n * i);
+    }
+    return 0;
+}
