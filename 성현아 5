@@ -1,0 +1,37 @@
+// 2557번 문제
+#include <stdio.h>
+int main(void) {
+	int arr[9], max = 0, index;
+	
+	int i;
+	for (i = 0; i < 9; i++) {
+		scanf_s("%d", &arr[i]);
+		if (arr[i] > max) {
+			max = arr[i];
+			index = 1;
+		}
+	}
+	printf("%d\n%d", max, index + 1);
+}
+
+// 8958번 문제
+#include <stdio.h>
+int main(void) {
+	int a, b, c;
+	int arr[10] = { 0, };
+
+	scanf_s("%d %d %d", &a, &b, &c);
+
+	int p = a * b * c;
+	int num;
+	while (p > 0) {
+		num = p % 10;
+		arr[num]++;
+		p = p / 10;
+	}
+	int i;
+	for (i = 0;i < 10;i++) {
+		printf("%d\n", arr[i]);
+	}
+	return 0;
+}
